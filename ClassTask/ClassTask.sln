@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTask", "ClassTask.csproj", "{FC445A0E-2E38-4F3C-9CDE-00C464871B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTaskPI", "..\ClassTaskPI\ClassTaskPI.csproj", "{EBB6CECC-104D-46BC-8BFB-2492A2747FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC445A0E-2E38-4F3C-9CDE-00C464871B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC445A0E-2E38-4F3C-9CDE-00C464871B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC445A0E-2E38-4F3C-9CDE-00C464871B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC445A0E-2E38-4F3C-9CDE-00C464871B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB6CECC-104D-46BC-8BFB-2492A2747FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB6CECC-104D-46BC-8BFB-2492A2747FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB6CECC-104D-46BC-8BFB-2492A2747FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB6CECC-104D-46BC-8BFB-2492A2747FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5880836A-9DF2-40D7-8962-8CF58BD18D44}
+	EndGlobalSection
+EndGlobal

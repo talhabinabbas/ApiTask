@@ -1,0 +1,41 @@
+﻿@page "/MainPage"
+
+@inject HttpClient Http
+
+<h3>Course Results Results</h3>
+
+@if (studentResults == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Student Name</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var result in studentResults)
+            {
+                <tr>
+                    <td>@result.Id</td>
+                    <td>@result.StudentName</td>
+                    <td>@result.Score</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<StudentResult> studentResults;
+
+    protected override async Task OnInitializedAsync()
+    {
+        studentResults = await Http.GetFromJsonAsync<List<StudentResult>>("api/studentresults");
+    }
+}
